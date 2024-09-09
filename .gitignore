@@ -1,0 +1,47 @@
+# Ignorar archivos de entorno
+.env
+*.env
+
+# Archivos de credenciales
+firebase_credentials.json
+
+# Archivos de configuración de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos de configuración del entorno virtual
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+*.log
+*.pot
+*.pyc
+
+# Ignorar bases de datos locales
+*.sqlite3
+db.sqlite3
+
+# Archivos de caché de Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+staticfiles/
+
+# Ignorar archivos y carpetas de VSCode
+.vscode/
+.history/
+
+# Archivos de configuración de OS específicos
+.DS_Store
+Thumbs.db
+
+# Archivos de despliegue
+*.bak
+*.swp
